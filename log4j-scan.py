@@ -3,9 +3,8 @@
 # ******************************************************************
 # log4j-scan: A generic scanner for Apache log4j RCE CVE-2021-44228
 # Author:
-# Mazin Ahmed <Mazin at FullHunt.io>
-# Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.
-# Secure your Attack Surface with FullHunt.io.
+# Python Script: Mazin Ahmed
+# Bash Script: CSPSHIVAM
 # ******************************************************************
 
 import argparse
@@ -33,9 +32,7 @@ except Exception:
     pass
 
 
-cprint('[•] CVE-2021-44228 - Apache Log4j RCE Scanner', "green")
-cprint('[•] Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.', "yellow")
-cprint('[•] Secure your External Attack Surface with FullHunt.io.', "yellow")
+#cprint('[•] CVE-2021-44228 - Log4shell RCE Scanner', "green")
 
 if len(sys.argv) <= 1:
     print('\n%s -h for help.' % (sys.argv[0]))
