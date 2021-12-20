@@ -3,7 +3,7 @@ A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-202
 
 #### Installation
 
-```$ git clone https://github.com/cspshivam/log4j-scan.git```
+```$ git clone https://github.com/cspshivam/log4shell-scanner.git```
 
 ```$ cd log4shell-scanner```
 
