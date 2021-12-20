@@ -20,18 +20,18 @@ echo "--------> Scanning Target: $1 "
 echo "	"
 echo "--------> Starting Default Scan "
 echo "	"
-#python3 log4j-scan.py -u $domain
+python3 code.py -u $domain
 echo "	"
 echo "--------> Fuzzing Headers "
 echo "	"
-#python3 log4j-scan.py -u $domain --headers-file headers.txt
+python3 code.py -u $domain --headers-file headers.txt
 echo "	"
 echo "--------> WAF Bypass "
 echo "	"
-#python3 log4j-scan.py -u $domain --waf-bypass
+python3 code.py -u $domain --waf-bypass
 echo "	"
 echo "--------> Testing for CVE-2021-45046 "
 echo "	"
-python3 log4j-scan.py -u $domain --test-CVE-2021-45046
+python3 code.py -u $domain --test-CVE-2021-45046
 echo "	"
 echo "--------> Scan completed"
