@@ -1,6 +1,7 @@
 # Log4shell Vulnerability Scanner
 A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228 
 
+# Linux
 #### Installation
 
 ```$ git clone https://github.com/cspshivam/log4shell-scanner.git```
@@ -16,3 +17,12 @@ A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-202
 
 #### USAGE
 ``` ./script.sh http://example.com ```
+
+# Windows
+
+#### Download ```checkjndi.ps1``` file
+#### Run POWERSHELL as ADMINISTRATOR
+#### Enable Script Execution policy with following commands
+#### ```Set-ExecutionPolicy RemoteSigned```
+#### ```Set-ExecutionPolicy Restricted```
+#### Now run the script in base directory to scan whole system ``` PS C:\> .\checkjndi.ps1```
