@@ -24,7 +24,7 @@ A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-202
 #### Run POWERSHELL as ADMINISTRATOR
 #### Enable Script Execution policy with following commands
 #### ```Set-ExecutionPolicy RemoteSigned```
-#### ```Set-ExecutionPolicy Unrestricted
+#### ```Set-ExecutionPolicy Unrestricted```
 #### ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
 #### ```Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine```
 #### Now run the script in base directory to scan whole system ``` PS C:\> .\checkjndi.ps1```
